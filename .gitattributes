@@ -1,0 +1,20 @@
+# Normaliza finales de línea a LF en todo el repositorio.
+# Evita diffs fantasma cuando se colabora desde Windows.
+* text=auto eol=lf
+
+# Binarios: nunca convertir.
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.zip  binary
+*.woff binary
+*.woff2 binary
+
+# Datos: sin normalización de EOL (pueden ser grandes).
+*.csv  -text
+*.tsv  -text
+
+# Documentos de datos: forzar LF dentro del JSON del notebook.
+*.ipynb text eol=lf

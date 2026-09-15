@@ -1,0 +1,13 @@
+{
+  "dataset_id": "real_causaldata_nsw_mixtape",
+  "package": "causaldata",
+  "rdatasets_csv": "https://vincentarelbundock.github.io/Rdatasets/csv/causaldata/nsw_mixtape.csv",
+  "rdatasets_doc": "https://vincentarelbundock.github.io/Rdatasets/doc/causaldata/nsw_mixtape.html",
+  "cran_description": "https://cran.r-project.org/web/packages/causaldata/DESCRIPTION",
+  "license_evidence": "CRAN causaldata DESCRIPTION: License: MIT + file LICENSE",
+  "rows_rdatasets_index": 445,
+  "cols_rdatasets_index": 11,
+  "rows_downloaded": 445,
+  "cols_downloaded": 12,
+  "sha256": "dd5743eb408ecf0cffd72125aff315a1c73ff5fd506001a9102a2b55fcf49b1e"
+}

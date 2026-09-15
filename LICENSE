@@ -1,0 +1,49 @@
+# Licencia de los contenidos
+
+**Obra:** DES504 · Inferencia Causal Aplicada con Python
+**Autor:** Jaime Lincovil — Universidad Nacional de Ingeniería (UNI), Lima, Perú
+**Año:** 2026
+
+Los **contenidos** de este repositorio —la monografía en PDF, las diapositivas, los
+notebooks de laboratorio con sus textos y figuras, y los conjuntos de datos
+elaborados para el curso— se distribuyen bajo la licencia:
+
+## Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+
+**CC BY-NC-SA 4.0** · Texto legal: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es
+
+Usted es libre de:
+
+- **Compartir** — copiar y redistribuir el material en cualquier medio o formato.
+- **Adaptar** — remezclar, transformar y construir a partir del material.
+
+Bajo las siguientes condiciones:
+
+- **Atribución** — debe dar crédito de manera adecuada, brindar un enlace a la
+  licencia e indicar si se han realizado cambios. Puede hacerlo de cualquier
+  forma razonable, pero no de manera que sugiera que usted o su uso tienen el
+  apoyo del licenciante.
+- **NoComercial** — no puede hacer uso del material con propósitos comerciales.
+- **CompartirIgual** — si remezcla, transforma o crea a partir del material, debe
+  distribuir su contribución bajo la misma licencia del original.
+- **Sin restricciones adicionales** — no puede aplicar términos legales ni medidas
+  tecnológicas que restrinjan legalmente a otras personas de hacer lo que la
+  licencia permite.
+
+## Alcance
+
+- **Cubre:** `libro/`, `diapositivas/`, `notebooks/`, `jupyter_book/`, `paper/` y
+  los datos incluidos.
+- **No cubre:** los scripts de código, que se rigen por [`LICENSE-CODE`](LICENSE-CODE)
+  (MIT).
+- **No distribuido:** las fuentes tipográficas (Typst/LaTeX) y los archivos de
+  bibliografía con los que se produjeron estos materiales **no** forman parte de
+  este repositorio y no se licencian aquí.
+
+## Atribución sugerida
+
+> Lincovil, J. (2026). *DES504 · Inferencia Causal Aplicada con Python*.
+> Universidad Nacional de Ingeniería (UNI), Lima, Perú.
+> Licencia CC BY-NC-SA 4.0.
+
+© 2026 Universidad Nacional de Ingeniería (UNI), Perú. Uso educativo y académico.

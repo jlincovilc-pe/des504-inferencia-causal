@@ -1,0 +1,13 @@
+{
+  "dataset_id": "real_causaldata_mortgages",
+  "package": "causaldata",
+  "rdatasets_csv": "https://vincentarelbundock.github.io/Rdatasets/csv/causaldata/mortgages.csv",
+  "rdatasets_doc": "https://vincentarelbundock.github.io/Rdatasets/doc/causaldata/mortgages.html",
+  "cran_description": "https://cran.r-project.org/web/packages/causaldata/DESCRIPTION",
+  "license_evidence": "CRAN causaldata DESCRIPTION: License: MIT + file LICENSE",
+  "rows_rdatasets_index": 214144,
+  "cols_rdatasets_index": 6,
+  "rows_downloaded": 214144,
+  "cols_downloaded": 7,
+  "sha256": "3001d3ffea8b5a298fc786a296a65875fcba2ca78d62e6bb14464ee83abe1871"
+}

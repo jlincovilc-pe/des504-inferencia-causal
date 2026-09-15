@@ -1,0 +1,13 @@
+{
+  "dataset_id": "real_causaldata_thornton_hiv",
+  "package": "causaldata",
+  "rdatasets_csv": "https://vincentarelbundock.github.io/Rdatasets/csv/causaldata/thornton_hiv.csv",
+  "rdatasets_doc": "https://vincentarelbundock.github.io/Rdatasets/doc/causaldata/thornton_hiv.html",
+  "cran_description": "https://cran.r-project.org/web/packages/causaldata/DESCRIPTION",
+  "license_evidence": "CRAN causaldata DESCRIPTION: License: MIT + file LICENSE",
+  "rows_rdatasets_index": 4820,
+  "cols_rdatasets_index": 7,
+  "rows_downloaded": 4820,
+  "cols_downloaded": 8,
+  "sha256": "d08e97c00cf74e360f3a90dd82506d51aed520a7ca569c2588fc978477cef906"
+}

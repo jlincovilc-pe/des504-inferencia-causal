@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inferencia-causal-aplicada"
+version = "1.0.0"
+description = "Jupyter Book: Inferencia Causal Aplicada con Python"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "statsmodels>=0.14.0",
+    "scikit-learn>=1.3.0",
+    "networkx>=3.1",
+    "nbformat>=5.9",
+    "ipykernel>=6.25",
+]
+
+[tool.setuptools.packages.find]
+include = ["causal_book*"]

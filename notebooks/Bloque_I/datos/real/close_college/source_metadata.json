@@ -1,0 +1,13 @@
+{
+  "dataset_id": "real_causaldata_close_college",
+  "package": "causaldata",
+  "rdatasets_csv": "https://vincentarelbundock.github.io/Rdatasets/csv/causaldata/close_college.csv",
+  "rdatasets_doc": "https://vincentarelbundock.github.io/Rdatasets/doc/causaldata/close_college.html",
+  "cran_description": "https://cran.r-project.org/web/packages/causaldata/DESCRIPTION",
+  "license_evidence": "CRAN causaldata DESCRIPTION: License: MIT + file LICENSE",
+  "rows_rdatasets_index": 3010,
+  "cols_rdatasets_index": 8,
+  "rows_downloaded": 3010,
+  "cols_downloaded": 9,
+  "sha256": "e76598f617cc786169b050e134ab099deb7ac97623edc7e3378819f7a4a54a3e"
+}

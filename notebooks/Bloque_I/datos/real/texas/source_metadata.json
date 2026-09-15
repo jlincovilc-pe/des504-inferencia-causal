@@ -1,0 +1,13 @@
+{
+  "dataset_id": "real_causaldata_texas",
+  "package": "causaldata",
+  "rdatasets_csv": "https://vincentarelbundock.github.io/Rdatasets/csv/causaldata/texas.csv",
+  "rdatasets_doc": "https://vincentarelbundock.github.io/Rdatasets/doc/causaldata/texas.html",
+  "cran_description": "https://cran.r-project.org/web/packages/causaldata/DESCRIPTION",
+  "license_evidence": "CRAN causaldata DESCRIPTION: License: MIT + file LICENSE",
+  "rows_rdatasets_index": 816,
+  "cols_rdatasets_index": 12,
+  "rows_downloaded": 816,
+  "cols_downloaded": 13,
+  "sha256": "728be45cc80b147dfc0b98a2930737982206d09caf43563c55260d82a0cacbbd"
+}

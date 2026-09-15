@@ -1,0 +1,52 @@
+name: Reporte de error en notebook
+description: Informa un error de ejecución, un resultado numérico o un problema conceptual.
+title: "[Error] Cap. NN — breve descripción"
+labels: ["bug"]
+body:
+  - type: input
+    id: capitulo
+    attributes:
+      label: Capítulo y celda
+      description: "Por ejemplo: Cap. 23, DML, 2.ª celda de código"
+      placeholder: "Cap. NN, celda ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: ¿Qué esperabas?
+      description: Describe el resultado o comportamiento correcto que anticipabas.
+    validations:
+      required: true
+
+  - type: textarea
+    id: ocurrido
+    attributes:
+      label: ¿Qué ocurrió?
+      description: Describe lo que pasó realmente. Pega la traza completa si es un error.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: entorno
+    attributes:
+      label: Entorno
+      description: Sistema operativo y versiones.
+      value: |
+        - SO:
+        - Python:
+        - Salida de `python -c "import numpy, scipy, pandas; print(numpy.__version__, scipy.__version__, pandas.__version__)"`:
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: comprobaciones
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Ejecuté `python scripts/verificar_entorno.py` sin errores
+          required: false
+        - label: No modifiqué la semilla `42`
+          required: false

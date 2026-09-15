@@ -1,0 +1,6 @@
+# Config MyST opcional (compatibilidad). El build local usa _config.yml + _toc.yml.
+version: 1
+project:
+  title: Inferencia Causal Aplicada con Python
+  description: 32 capítulos de inferencia causal con Python
+  keywords: [causal inference, econometrics, Python]

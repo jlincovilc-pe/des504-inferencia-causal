@@ -1,0 +1,51 @@
+# Jupyter Book — Inferencia Causal Aplicada (local)
+title: Inferencia Causal Aplicada con Python
+author: Maestría en Ciencias e Ingeniería Estadística — UNI 2026
+logo: Logo-UNI.png
+
+execute:
+  execute_notebooks: "off"
+  timeout: 300
+  allow_errors: false
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - linkify
+    - substitution
+    - colon_fence
+
+html:
+  use_issues_button: false
+  use_repository_button: false
+  home_page_in_navbar: true
+
+sphinx:
+  config:
+    nb_execution_show_tb: true
+    # Lectura óptima de outputs (Opción B): los notebooks vienen pre-ejecutados
+    # y el build NO ejecuta nada; estas opciones solo afectan al renderizado.
+    # 1) Los warnings de stderr (pandas/numpy/scipy) se eliminan del HTML:
+    #    ruido para el lector; los outputs pedagógicos van por stdout.
+    nb_output_stderr: "remove"
+    # 2) stdout+stderr intercalados en orden cronológico (si algún día hay).
+    nb_merge_streams: true
+    # 3) Anclas de encabezados (navegación por secciones en la barra lateral).
+    myst_heading_anchors: 3
+
+exclude_patterns:
+  - _build
+  - .git
+  - Thumbs.db
+  - .DS_Store
+  - "**.ipynb_checkpoints"
+  - scripts
+  - data
+  - datos
+  - causal_book
+  - "*.egg-info"
+  - README.md
+  - requirements.txt
+  - pyproject.toml
+  - Makefile

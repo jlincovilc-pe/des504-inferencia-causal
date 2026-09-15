@@ -1,0 +1,49 @@
+# Tabla de contenidos — Jupyter Book (local)
+format: jb-book
+root: intro
+title: Inferencia Causal Aplicada con Python
+
+parts:
+  - caption: Bloque I — Fundamentación
+    chapters:
+      - file: content/bloque_01_fundamentacion/01_paradoja_efecto_cero
+      - file: content/bloque_01_fundamentacion/02_problema_fundamental
+      - file: content/bloque_01_fundamentacion/03_arte_matching
+      - file: content/bloque_01_fundamentacion/04_ipw_doble_robustez
+      - file: content/bloque_01_fundamentacion/05_abismo_observable_instrumental
+      - file: content/bloque_01_fundamentacion/06_late_taxonomia
+      - file: content/bloque_01_fundamentacion/07_regression_discontinuity
+      - file: content/bloque_01_fundamentacion/08_difference_in_differences
+      - file: content/bloque_01_fundamentacion/09_control_sintetico
+      - file: content/bloque_01_fundamentacion/10_mediacion_causal
+      - file: content/bloque_01_fundamentacion/11_robustez_validacion
+      - file: content/bloque_01_fundamentacion/12_seleccion_metodos
+
+  - caption: Bloque II — Formalización
+    chapters:
+      - file: content/bloque_02_formalizacion/13_scm_anatomia_mecanismo
+      - file: content/bloque_02_formalizacion/14_dags_flujo_informacion
+      - file: content/bloque_02_formalizacion/15_criterio_backdoor
+      - file: content/bloque_02_formalizacion/16_criterio_frontdoor
+      - file: content/bloque_02_formalizacion/17_naturaleza_causas
+      - file: content/bloque_02_formalizacion/18_do_calculus
+      - file: content/bloque_02_formalizacion/19_contrafactuales
+
+  - caption: Bloque III — Descubrimiento y ML Causal
+    chapters:
+      - file: content/bloque_03_descubrimiento_ml/20_descubrimiento_causal
+      - file: content/bloque_03_descubrimiento_ml/21_aprendizaje_causal_jerarquia
+      - file: content/bloque_03_descubrimiento_ml/22_meta_learners
+      - file: content/bloque_03_descubrimiento_ml/23_doble_desviacion
+      - file: content/bloque_03_descubrimiento_ml/24_efectos_heterogeneos
+      - file: content/bloque_03_descubrimiento_ml/25_series_tiempo_paneles
+      - file: content/bloque_03_descubrimiento_ml/26_off_policy_evaluation
+      - file: content/bloque_03_descubrimiento_ml/27_representaciones_causales
+
+  - caption: Bloque IV — IA Causal
+    chapters:
+      - file: content/bloque_04_ia_causal/28_rl_causal
+      - file: content/bloque_04_ia_causal/29_arquitecturas_ia_causal
+      - file: content/bloque_04_ia_causal/30_agentes_semi_deterministicos
+      - file: content/bloque_04_ia_causal/31_equidad_etica
+      - file: content/bloque_04_ia_causal/32_hoja_ruta

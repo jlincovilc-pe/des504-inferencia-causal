@@ -1,0 +1,13 @@
+{
+  "dataset_id": "real_causaldata_nhefs",
+  "package": "causaldata",
+  "rdatasets_csv": "https://vincentarelbundock.github.io/Rdatasets/csv/causaldata/nhefs.csv",
+  "rdatasets_doc": "https://vincentarelbundock.github.io/Rdatasets/doc/causaldata/nhefs.html",
+  "cran_description": "https://cran.r-project.org/web/packages/causaldata/DESCRIPTION",
+  "license_evidence": "CRAN causaldata DESCRIPTION: License: MIT + file LICENSE",
+  "rows_rdatasets_index": 1629,
+  "cols_rdatasets_index": 67,
+  "rows_downloaded": 1629,
+  "cols_downloaded": 68,
+  "sha256": "6c25caada387bb7321195bee6f7b11f561a9cbc4971c61a86d2ba636a1872982"
+}

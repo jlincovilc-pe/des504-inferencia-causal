@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si utilizas este material en tu investigación o docencia, cítalo así:"
+title: "DES504 · Inferencia Causal Aplicada con Python"
+abstract: >-
+  Material del curso de posgrado DES504 (UNI, 2026): monografía, 32 presentaciones,
+  32 notebooks de laboratorio con datos y una versión web navegable, bajo el marco
+  unificador de la Geometría de la Causalidad Estadística (GCE).
+type: book
+authors:
+  - family-names: Lincovil
+    given-names: Jaime
+    affiliation: "Universidad Nacional de Ingeniería (UNI), Lima, Perú"
+year: 2026
+version: "2026.1"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - inferencia causal
+  - ATE
+  - Wasserstein
+  - divergencias f
+  - transporte óptimo
+  - paradoja del efecto cero
+  - Python
+# Reemplaza <usuario> por tu cuenta de GitHub antes de publicar.
+repository-code: "https://github.com/<usuario>/des504-inferencia-causal"

@@ -1,0 +1,34 @@
+# Jupyter
+**/.ipynb_checkpoints/
+.jupyter_ystore.db
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Jupyter Book / HTML generado
+jupyter_book/_build/
+_build/
+
+# SO
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editores
+.idea/
+.vscode/
+*.swp

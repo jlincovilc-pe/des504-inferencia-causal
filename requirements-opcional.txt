@@ -1,0 +1,6 @@
+# Dependencias OPCIONALES: solo para los capítulos 28 y 29 (deep learning).
+# Son pesadas (descarga grande) y no son necesarias para el resto del curso.
+#
+# Instalar aparte, con el entorno ya activado:
+#   pip install -r requirements-opcional.txt
+torch>=2.0

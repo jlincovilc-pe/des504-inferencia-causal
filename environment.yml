@@ -1,0 +1,38 @@
+# Entorno reproducible del curso DES504.
+# Crear:   conda env create -f environment.yml
+# Activar: conda activate des504
+# Alternativa con pip: ver requirements.txt
+name: des504
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Núcleo científico
+  - numpy>=1.24,<2.1
+  - pandas>=2.0
+  - scipy>=1.11
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  # Econometría
+  - statsmodels>=0.14
+  - linearmodels>=5.0
+  # Machine learning
+  - scikit-learn>=1.3
+  # Grafos (Bloque II)
+  - networkx>=3.1
+  - pydot>=1.4
+  # Jupyter
+  - jupyterlab>=4.0
+  - ipykernel>=6.25
+  - nbformat>=5.9
+  - nbclient>=0.8
+  - pip
+  - pip:
+      # Inferencia causal y transporte óptimo (Bloques III–IV)
+      - POT>=0.9.0
+      - causal-learn>=0.1.3
+      - lingam>=1.8
+      - DoubleML>=0.7
+      - econml>=0.15
+      # Jupyter Book (para reconstruir la versión web)
+      - jupyter-book>=0.15,<2
