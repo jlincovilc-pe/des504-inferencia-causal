@@ -22,6 +22,9 @@ ENV/
 jupyter_book/_build/
 _build/
 
+# Carpeta local privada (material interno: fuentes, notas GCE, capa editorial)
+_privado/
+
 # SO
 .DS_Store
 Thumbs.db
