@@ -17,7 +17,7 @@ Requiere Python 3.11.
 2. Clona el repositorio. Si no tienes Git, instálalo desde https://git-scm.com/download/win
 
    ```powershell
-   git clone https://github.com/<usuario>/des504-inferencia-causal.git
+   git clone https://github.com/jlincovilc-pe/des504-inferencia-causal.git
    cd des504-inferencia-causal
    ```
 
@@ -44,7 +44,7 @@ Requiere Python 3.11.
 ## Opción B — venv + pip (PowerShell)
 
 ```powershell
-git clone https://github.com/<usuario>/des504-inferencia-causal.git
+git clone https://github.com/jlincovilc-pe/des504-inferencia-causal.git
 cd des504-inferencia-causal
 py -3.11 -m venv .venv
 .venv\Scripts\Activate.ps1

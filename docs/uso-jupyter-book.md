@@ -9,7 +9,7 @@ publicado en línea.
 Si el repositorio tiene GitHub Pages activado, el libro está disponible en:
 
 ```text
-https://<usuario>.github.io/des504-inferencia-causal/
+https://jlincovilc-pe.github.io/des504-inferencia-causal/
 ```
 
 ## Reconstruir el libro localmente

@@ -21,5 +21,4 @@ keywords:
   - transporte óptimo
   - paradoja del efecto cero
   - Python
-# Reemplaza <usuario> por tu cuenta de GitHub antes de publicar.
-repository-code: "https://github.com/<usuario>/des504-inferencia-causal"
+repository-code: "https://github.com/jlincovilc-pe/des504-inferencia-causal"

@@ -31,7 +31,7 @@ Repositorio de **material del estudiante**: libro de lectura, diapositivas de au
 Elige tu sistema operativo. Se recomienda **conda/mamba** por simplicidad multiplataforma.
 
 ```bash
-git clone https://github.com/<usuario>/des504-inferencia-causal.git
+git clone https://github.com/jlincovilc-pe/des504-inferencia-causal.git
 cd des504-inferencia-causal
 conda env create -f environment.yml
 conda activate des504

@@ -19,7 +19,7 @@ Python 3.11.
 2. Clona el repositorio y crea el entorno:
 
    ```bash
-   git clone https://github.com/<usuario>/des504-inferencia-causal.git
+   git clone https://github.com/jlincovilc-pe/des504-inferencia-causal.git
    cd des504-inferencia-causal
    conda env create -f environment.yml
    conda activate des504
@@ -42,7 +42,7 @@ Python 3.11.
 
 ```bash
 sudo apt update && sudo apt install -y python3.11 python3.11-venv graphviz
-git clone https://github.com/<usuario>/des504-inferencia-causal.git
+git clone https://github.com/jlincovilc-pe/des504-inferencia-causal.git
 cd des504-inferencia-causal
 python3.11 -m venv .venv
 source .venv/bin/activate

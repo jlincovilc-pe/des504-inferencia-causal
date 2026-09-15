@@ -19,7 +19,7 @@ Guía para Mac con chip Apple Silicon (M1/M2/M3/M4) e Intel. Requiere Python 3.1
 2. Clona y crea el entorno:
 
    ```bash
-   git clone https://github.com/<usuario>/des504-inferencia-causal.git
+   git clone https://github.com/jlincovilc-pe/des504-inferencia-causal.git
    cd des504-inferencia-causal
    conda env create -f environment.yml
    conda activate des504
@@ -44,7 +44,7 @@ Requiere Homebrew (https://brew.sh):
 
 ```bash
 brew install python@3.11 graphviz
-git clone https://github.com/<usuario>/des504-inferencia-causal.git
+git clone https://github.com/jlincovilc-pe/des504-inferencia-causal.git
 cd des504-inferencia-causal
 python3.11 -m venv .venv
 source .venv/bin/activate
